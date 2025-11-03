@@ -1,15 +1,41 @@
 ---
-layout: page
-title: About
-permalink: /about/
+title: "About — Alper Sager"
 ---
 
-# About Me
+# About
 
-I am a Computer Engineering student at **RWTH Aachen University**, combining studies in **AI systems** and **embedded computing** with cross-cultural leadership through **EESTEC**.
+I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen University**.  
+My interests lie in **AI Systems**, **Embedded Computing**, and international leadership through **EESTEC**.
 
-My academic focus lies in designing intelligent, efficient systems while contributing to international student communities that bridge technology and social impact.  
+## Highlights
+- Vice President, **EESTEC LC Aachen** (international teamwork, event ops, partner relations)
+- Strong foundation in **C/C++**, AVR **assembly**, data structures, OS concepts
+- Hands-on with **Fourier transforms**, digital/analog circuits, DFA/NFA/PDA, Turing machines
+- Multilingual: **EN (C2)**, **DE (C2)**, **TR (native)**, FR (learning), RU (basics)
 
-Fluent in **English (C2)** and **German (C2)**, native in **Turkish**, and currently advancing **French** to C1/C2 level at Institut Français Aachen.  
+## Coursework & Skills
+- **Systems/Embedded:** AVR8, interrupts, timers, I/O; basic Verilog
+- **Algorithms:** Dijkstra, Quick/Heap Sort; complexity theory
+- **Signal Processing:** FFT, sampling, filters; MATLAB basics
+- **OS/Tools:** Bash, regex, scheduling (Round Robin, etc.); Git/GitHub
 
-My long-term goals include obtaining a **Fulbright scholarship** and pursuing graduate studies at an Ivy League university, with a focus on innovation and global collaboration.
+---
+
+<!-- FOOTER + STYLES -->
+<hr style="margin-top:48px;">
+<footer style="text-align:center; font-size:0.9rem; opacity:.8; margin:32px 0;">
+  © 2025 <strong>Alper Sager</strong> · RWTH Aachen University<br>
+  <a href="mailto:alper.sager@rwth-aachen.de">alper.sager@rwth-aachen.de</a> ·
+  <a href="https://www.linkedin.com/in/alpersager">LinkedIn</a> ·
+  <a href="https://github.com/alpersager">GitHub</a>
+</footer>
+
+<style>
+  body { font-family: "Segoe UI","Helvetica Neue",sans-serif; }
+  h1, h2, h3 { letter-spacing:.2px; }
+  h1 { color:#003366; }
+  h2 { color:#004b8d; border-bottom:2px solid #e5e7eb; padding-bottom:4px; }
+  a { color:#0056b3; } a:hover { text-decoration:underline; opacity:.92; }
+  code { background:#f6f8fa; padding:2px 6px; border-radius:6px; }
+  hr { border:none; border-top:1px solid #e5e7eb; }
+</style>
