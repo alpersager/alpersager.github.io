@@ -24,8 +24,32 @@ Hi, I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 I’m passionate about **AI systems**, **embedded computing**, and international leadership through **EESTEC**.
 
 ---
-<img width="1410" height="476" alt="image" src="https://github.com/user-attachments/assets/88d2df8d-a663-4f0c-81dd-afc0b0ed581b" />
 
+<!-- CV PREVIEW -->
+<h2 style="margin-top:32px;">CV Preview</h2>
+<div style="border:1px solid #e5e7eb; border-radius:12px; padding:12px;">
+    <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:space-between; align-items:center; margin-bottom:8px;">
+    <div style="font-weight:600;">Alper Sager – Curriculum Vitae</div>
+    <div>
+      <a href="/files/CV_AlperSager.pdf" style="padding:8px 12px; border:1px solid #e5e7eb; border-radius:10px; text-decoration:none;">⬇️ Download PDF</a>
+    </div>
+  </div>
+
+  <div style="position:relative; width:100%; padding-top:130%; border:1px solid #f0f0f0; border-radius:8px; overflow:hidden; background:#fff;">
+    <iframe
+      src="/files/CV_AlperSager.pdf#view=FitH"
+      title="Alper Sager CV"
+      style="position:absolute; inset:0; width:100%; height:100%; border:0;"
+    ></iframe>
+  </div>
+
+  <div style="font-size:.9rem; opacity:.75; margin-top:8px;">
+    If the preview does not load on your device, use the <a href="/files/CV_AlperSager.pdf">direct download link</a>.
+  </div>
+
+</div>
+<!-- CV PREVIEW END -->
+---
 <!-- START: PROJECT GRID -->
 <h2 id="projects" style="margin-top:32px;">Selected Projects</h2>
 
