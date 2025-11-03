@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alper Sager — Portfolio</title>
+  <meta name="description" content="Alper Sager — Computer Engineering @ RWTH Aachen. AI Systems • Embedded Computing • EESTEC Leadership." />
+  <style>
+    :root{
+      --rwth-blue:#003366; --rwth-blue-2:#004b8d; --text:#0f172a; --muted:#6b7280; --line:#e5e7eb; --bg:#ffffff;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0; padding:0; background:var(--bg); color:var(--text); font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+    a{color:#0056b3; text-decoration:none}
+    a:hover{text-decoration:underline; opacity:.92}
+    .container{max-width:960px; margin:0 auto; padding:24px 18px}
+    h1,h2{letter-spacing:.2px;}
+    h1{color:var(--rwth-blue); font-size:2rem; margin:16px 0 8px; text-align:center;}
+    h2{color:var(--rwth-blue-2); border-bottom:2px solid var(--line); padding-bottom:4px; margin-top:40px}
+    hr{border:none; border-top:1px solid var(--line); margin:24px 0}
+    .hero{text-align:center; margin:32px 0;}
+    .btns{margin-top:16px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;}
+    .btn{padding:10px 16px; border-radius:10px; border:1px solid var(--line);}
+    .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:12px;}
+    .card{border:1px solid var(--line); border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s; color:inherit;}
+    .card:hover{transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.08);}
+    .card .title{font-weight:600; margin-bottom:6px;}
+    .card .meta{margin-top:8px; font-size:.9rem;}
+    footer{text-align:center; font-size:.9rem; opacity:.85; margin:40px 0 24px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>Alper Sager</h1>
+      <p style="margin:0; font-size:1.05rem; opacity:.85;">
+        Computer Engineering @ <strong>RWTH Aachen</strong><br>
+        <em>AI Systems · Embedded Computing · EESTEC Leadership</em>
+      </p>
+      <div class="btns">
+        <a class="btn" href="https://github.com/alpersager">💻 GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/alpersager">🔗 LinkedIn</a>
+        <a class="btn" href="/contact">✉️ Contact</a>
+      </div>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Welcome!</h2>
+      <p>Hi, I’m <strong>Alper Sager</strong>, a Computer Engineering student at <strong>RWTH Aachen University</strong>. I’m passionate about <strong>AI systems</strong>, <strong>embedded computing</strong>, and international leadership through <strong>EESTEC</strong>.</p>
+    </section>
+
+    <section>
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <a class="card" href="https://github.com/alpersager/othello-cpp">
+          <div class="title">Othello in C++ (TDD)</div>
+          <div class="desc">Game logic, move validation, and unit testing with <code>test.cpp</code>.</div>
+          <div class="meta">⚙️ C++ • STL • Unit Testing</div>
+        </a>
+
+        <a class="card" href="https://github.com/alpersager/avr-assembly-labs">
+          <div class="title">AVR8 Assembly Labs</div>
+          <div class="desc">Low-level I/O, timers, and interrupt-driven embedded programs.</div>
+          <div class="meta">🧠 AVR • Assembly • Embedded Systems</div>
+        </a>
+
+        <a class="card" href="https://github.com/alpersager/mini-db-cpp">
+          <div class="title">Mini Database (C++)</div>
+          <div class="desc">In-memory records, indexing and simple query engine.</div>
+          <div class="meta">🗃️ C++ • Data Structures</div>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <hr>
+      © 2025 <strong>Alper Sager</strong> · RWTH Aachen University ·
+      <a href="mailto:alper.sager@rwth-aachen.de">alper.sager@rwth-aachen.de</a> ·
+      <a href="https://www.linkedin.com/in/alpersager">LinkedIn</a> ·
+      <a href="https://github.com/alpersager">GitHub</a>
+    </footer>
+  </div>
+</body>
+</html>
