@@ -1,0 +1,13 @@
+title: Alper Sager
+description: Computer Engineering @ RWTH Aachen · AI Systems · Embedded Computing · EESTEC Leadership
+theme: minima
+markdown: kramdown
+
+header_pages:
+  - about.md
+  - projects.md
+  - contact.md
+
+author:
+  name: Alper Sager
+  email: alper.sager@rwth-aachen.de
