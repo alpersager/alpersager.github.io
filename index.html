@@ -122,28 +122,75 @@
    <section>
   <h2>Selected Projects</h2>
 
-  <div class="grid">
-    <!-- OTHELLO -->
-    <div class="card">
-      <div class="title">Othello in C++ (TDD)</div>
-      <div class="desc">
-        Complete game engine with legal-move generation, flips, score tracking and pass logic.
-      </div>
-      <ul style="margin:10px 0 0 18px;line-height:1.45">
-        <li>Board as bitboard + fast neighbor scanning</li>
-        <li>Deterministic unit tests in <code>test.cpp</code> (TDD)</li>
-        <li>Clear API: <code>canPlay()</code>, <code>applyMove()</code>, <code>validMoves()</code></li>
-        <li>Focus on correctness & simplicity</li>
-      </ul>
-      <div class="chips">
-        <span class="chip">C++</span>
-        <span class="chip">STL</span>
-        <span class="chip">Unit Testing</span>
-      </div>
-      <div class="actions">
-        <a class="btn-sm" href="https://github.com/alpersager/othello-cpp">View Repo ↗</a>
-      </div>
+ <div class="grid">
+  <!-- OTHELLO -->
+  <div class="card accent-1">
+    <div class="title"><span class="ico">♟</span>Othello in C++ (TDD)</div>
+    <div class="desc">
+      Complete game engine with legal-move generation, flips, score tracking and pass logic.
     </div>
+    <ul style="margin:10px 0 0 18px;line-height:1.45">
+      <li>Board as bitboard + fast neighbor scanning</li>
+      <li>Deterministic unit tests in <code>test.cpp</code> (TDD)</li>
+      <li>Clear API: <code>canPlay()</code>, <code>applyMove()</code>, <code>validMoves()</code></li>
+      <li>Focus on correctness & simplicity</li>
+    </ul>
+    <div class="chips">
+      <span class="chip">C++</span>
+      <span class="chip">STL</span>
+      <span class="chip">Unit Testing</span>
+    </div>
+    <div class="actions">
+      <a class="btn-sm btn-primary" href="https://github.com/alpersager/othello-cpp">View Repo ↗</a>
+    </div>
+  </div>
+
+  <!-- AVR ASSEMBLY -->
+  <div class="card accent-2">
+    <div class="title"><span class="ico">🔧</span>AVR8 Assembly Labs</div>
+    <div class="desc">
+      Low-level programs showcasing GPIO, timers, interrupts and simple state machines on AVR.
+    </div>
+    <ul style="margin:10px 0 0 18px;line-height:1.45">
+      <li>Blink & PWM via Timer/Counter configuration</li>
+      <li>Interrupt-driven button debouncing</li>
+      <li>Modular ISR & main loop separation</li>
+      <li>Register-level documentation in comments</li>
+    </ul>
+    <div class="chips">
+      <span class="chip">AVR</span>
+      <span class="chip">Assembly</span>
+      <span class="chip">Embedded</span>
+      <span class="chip">Timers/ISR</span>
+    </div>
+    <div class="actions">
+      <a class="btn-sm btn-primary" href="https://github.com/alpersager/avr-assembly-labs">View Repo ↗</a>
+    </div>
+  </div>
+
+  <!-- MINI DATABASE -->
+  <div class="card accent-3">
+    <div class="title"><span class="ico">💾</span>Mini Database (C++)</div>
+    <div class="desc">
+      In-memory records with simple indexing and a tiny query engine for select/filter/sort.
+    </div>
+    <ul style="margin:10px 0 0 18px;line-height:1.45">
+      <li>Record model + in-memory store</li>
+      <li>Index by key for O(1)/O(log n) lookups</li>
+      <li>Query pipeline: filter → map → sort</li>
+      <li>Clean separation: storage vs. query layer</li>
+    </ul>
+    <div class="chips">
+      <span class="chip">C++</span>
+      <span class="chip">Data Structures</span>
+      <span class="chip">Indexes</span>
+    </div>
+    <div class="actions">
+      <a class="btn-sm btn-primary" href="https://github.com/alpersager/mini-db-cpp">View Repo ↗</a>
+    </div>
+  </div>
+</div>
+
 
     <!-- AVR ASSEMBLY -->
     <div class="card">
