@@ -5,38 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Alper Sager — Portfolio</title>
   <meta name="description" content="Alper Sager — Computer Engineering @ RWTH Aachen. AI Systems • Embedded Computing • EESTEC Leadership." />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <style>
     :root{
-      --rwth-blue:#003366; --rwth-blue-2:#004b8d; --text:#0f172a; --muted:#6b7280; --line:#e5e7eb; --bg:#ffffff;
+      --rwth-1:#003366;  /* deep RWTH blue */
+      --rwth-2:#004b8d;  /* lighter RWTH blue */
+      --text:#0f172a;    /* slate-900 */
+      --muted:#64748b;   /* slate-500 */
+      --line:#e5e7eb;    /* gray-200 */
+      --bg:#ffffff;
+      --card:#ffffff;
+      --ring:#dbeafe;    /* blue-100 */
     }
     *{box-sizing:border-box}
-    html,body{margin:0; padding:0; background:var(--bg); color:var(--text); font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
-    a{color:#0056b3; text-decoration:none}
-    a:hover{text-decoration:underline; opacity:.92}
-    .container{max-width:960px; margin:0 auto; padding:24px 18px}
-    h1,h2{letter-spacing:.2px;}
-    h1{color:var(--rwth-blue); font-size:2rem; margin:16px 0 8px; text-align:center;}
-    h2{color:var(--rwth-blue-2); border-bottom:2px solid var(--line); padding-bottom:4px; margin-top:40px}
-    hr{border:none; border-top:1px solid var(--line); margin:24px 0}
-    .hero{text-align:center; margin:32px 0;}
-    .btns{margin-top:16px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;}
-    .btn{padding:10px 16px; border-radius:10px; border:1px solid var(--line);}
-    .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:12px;}
-    .card{border:1px solid var(--line); border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s; color:inherit;}
-    .card:hover{transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.08);}
-    .card .title{font-weight:600; margin-bottom:6px;}
-    .card .meta{margin-top:8px; font-size:.9rem;}
-    footer{text-align:center; font-size:.9rem; opacity:.85; margin:40px 0 24px;}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:#0b63c8;text-decoration:none}
+    a:hover{opacity:.9;text-decoration:underline}
+    .container{max-width:1000px;margin:0 auto;padding:32px 20px}
+    h1,h2{letter-spacing:.2px}
+    h1{font-size:2.4rem;line-height:1.15;margin:6px 0 8px;color:var(--rwth-1);text-align:center}
+    h2{font-size:1.35rem;color:var(--rwth-2);margin:28px 0 10px;border-bottom:2px solid var(--line);padding-bottom:6px}
+
+    /* HERO */
+    .hero{display:flex;flex-direction:column;align-items:center;text-align:center;margin:8px 0 20px}
+    .tag{margin:0;color:var(--muted);font-weight:500}
+    .sub{margin:8px 0 0;font-style:italic;opacity:.9}
+    .btns{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+    .btn{
+      display:inline-block;padding:10px 14px;border-radius:999px;border:1px solid var(--line);
+      background:var(--card);transition:transform .12s, box-shadow .12s, border-color .12s;
+    }
+    .btn:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,0,0,.06);border-color:#cbd5e1}
+
+    /* SECTIONS */
+    .lead{font-size:1.05rem;opacity:.95}
+    .divider{margin:22px 0;border:none;border-top:1px solid var(--line)}
+
+    /* PROJECT GRID */
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px;margin-top:12px}
+    .card{
+      background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;
+      box-shadow:0 2px 0 rgba(0,0,0,.02);transition:transform .14s, box-shadow .14s,border-color .14s;
+    }
+    .card:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.08);border-color:#d1d5db}
+    .title{font-weight:600;margin-bottom:6px}
+    .desc{color:#334155;font-size:.98rem}
+    .meta{margin-top:8px;font-size:.9rem;color:#334155;display:flex;align-items:center;gap:6px}
+    .meta::before{
+      content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ring);
+      box-shadow:0 0 0 3px #eef2ff; /* subtle ring */
+    }
+
+    footer{text-align:center;font-size:.9rem;opacity:.85;margin:40px 0 24px}
   </style>
 </head>
 <body>
   <div class="container">
+    <!-- HERO -->
     <section class="hero">
       <h1>Alper Sager</h1>
-      <p style="margin:0; font-size:1.05rem; opacity:.85;">
-        Computer Engineering @ <strong>RWTH Aachen</strong><br>
-        <em>AI Systems · Embedded Computing · EESTEC Leadership</em>
-      </p>
+      <p class="tag">Computer Engineering @ <strong>RWTH Aachen</strong></p>
+      <p class="sub">AI Systems · Embedded Computing · EESTEC Leadership</p>
       <div class="btns">
         <a class="btn" href="https://github.com/alpersager">💻 GitHub</a>
         <a class="btn" href="https://www.linkedin.com/in/alpersager">🔗 LinkedIn</a>
@@ -44,38 +78,45 @@
       </div>
     </section>
 
-    <hr>
+    <hr class="divider">
 
+    <!-- INTRO -->
     <section>
       <h2>Welcome!</h2>
-      <p>Hi, I’m <strong>Alper Sager</strong>, a Computer Engineering student at <strong>RWTH Aachen University</strong>. I’m passionate about <strong>AI systems</strong>, <strong>embedded computing</strong>, and international leadership through <strong>EESTEC</strong>.</p>
+      <p class="lead">
+        Hi, I’m <strong>Alper Sager</strong>, a Computer Engineering student at
+        <strong>RWTH Aachen University</strong>. I’m passionate about
+        <strong>AI systems</strong>, <strong>embedded computing</strong>, and international
+        leadership through <strong>EESTEC</strong>.
+      </p>
     </section>
 
+    <!-- PROJECTS -->
     <section>
       <h2>Selected Projects</h2>
       <div class="grid">
         <a class="card" href="https://github.com/alpersager/othello-cpp">
           <div class="title">Othello in C++ (TDD)</div>
           <div class="desc">Game logic, move validation, and unit testing with <code>test.cpp</code>.</div>
-          <div class="meta">⚙️ C++ • STL • Unit Testing</div>
+          <div class="meta">C++ · STL · Unit Testing</div>
         </a>
 
         <a class="card" href="https://github.com/alpersager/avr-assembly-labs">
           <div class="title">AVR8 Assembly Labs</div>
           <div class="desc">Low-level I/O, timers, and interrupt-driven embedded programs.</div>
-          <div class="meta">🧠 AVR • Assembly • Embedded Systems</div>
+          <div class="meta">AVR · Assembly · Embedded Systems</div>
         </a>
 
         <a class="card" href="https://github.com/alpersager/mini-db-cpp">
           <div class="title">Mini Database (C++)</div>
-          <div class="desc">In-memory records, indexing and simple query engine.</div>
-          <div class="meta">🗃️ C++ • Data Structures</div>
+          <div class="desc">In-memory records, indexing and a simple query engine.</div>
+          <div class="meta">C++ · Data Structures</div>
         </a>
       </div>
     </section>
 
     <footer>
-      <hr>
+      <hr class="divider">
       © 2025 <strong>Alper Sager</strong> · RWTH Aachen University ·
       <a href="mailto:alper.sager@rwth-aachen.de">alper.sager@rwth-aachen.de</a> ·
       <a href="https://www.linkedin.com/in/alpersager">LinkedIn</a> ·
