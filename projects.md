@@ -1,47 +1,71 @@
 ---
-layout: page
-title: Projects
-permalink: /projects/
+title: "Projects — Alper Sager"
 ---
 
 # Projects
 
-Below is a selection of my technical and leadership projects that demonstrate my interdisciplinary background in computer engineering, embedded systems, and international collaboration.
+Below are selected projects with short descriptions and tech stack.
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; margin-top:12px;">
+
+  <a href="https://github.com/alpersager/othello-cpp" style="text-decoration:none; color:inherit;">
+    <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
+      <div style="font-weight:600; margin-bottom:6px;">Othello in C++ (TDD)</div>
+      <div style="opacity:.8; font-size:.95rem;">Game logic, move validation, and unit tests (<code>test.cpp</code>).</div>
+      <div style="margin-top:8px; font-size:.9rem;">⚙️ C++ • STL • Unit Testing</div>
+    </div>
+  </a>
+
+  <a href="https://github.com/alpersager/avr-assembly-labs" style="text-decoration:none; color:inherit;">
+    <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
+      <div style="font-weight:600; margin-bottom:6px;">AVR8 Assembly Labs</div>
+      <div style="opacity:.8; font-size:.95rem;">Interrupts, timers, low-level I/O — clean commented ASM.</div>
+      <div style="margin-top:8px; font-size:.9rem;">🧠 AVR • Assembly • Embedded</div>
+    </div>
+  </a>
+
+  <a href="https://github.com/alpersager/mini-db-cpp" style="text-decoration:none; color:inherit;">
+    <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
+      <div style="font-weight:600; margin-bottom:6px;">Mini Database (C++)</div>
+      <div style="opacity:.8; font-size:.95rem;">In-memory store, simple indexing & query engine.</div>
+      <div style="margin-top:8px; font-size:.9rem;">🗃️ C++ • Data Structures</div>
+    </div>
+  </a>
+
+</div>
+
+<script>
+  document.querySelectorAll('div[style*="border-radius:14px"]').forEach(card=>{
+    card.addEventListener('mouseenter', ()=>{ card.style.transform='translateY(-2px)'; card.style.boxShadow='0 8px 24px rgba(0,0,0,.08)'; });
+    card.addEventListener('mouseleave', ()=>{ card.style.transform=''; card.style.boxShadow=''; });
+  });
+</script>
 
 ---
 
-### 🧠 AI-Based Othello Game (C++)
-Developed a strategy-driven Othello game in C++ using object-oriented design and test-driven validation.  
-**Impact:** Improved algorithmic thinking and software testing proficiency.
-
-[View Source Code](#) | [GitHub Repository](#)
-
----
-
-### 🔌 Mini Database System (C++)
-Built a simple database engine in C++ for learning data structures and efficient memory management.  
-**Impact:** Gained hands-on experience with type conversion, I/O operations, and data indexing.
-
-[View Source Code](#)
+## Coursework mini-demos (optional)
+- OS Scheduling demos (Round Robin etc.)
+- FFT & filtering notebooks
+- AVR timer & interrupt examples
 
 ---
 
-### ⚙️ ARM Assembly Practical Lab (RWTH)
-Completed low-level programming tasks for the ARMv8 architecture under “Praktikum Informatik I.”  
-**Impact:** Strengthened understanding of CPU microarchitecture, registers, and instruction pipelines.
+<!-- FOOTER + STYLES -->
+<hr style="margin-top:48px;">
+<footer style="text-align:center; font-size:0.9rem; opacity:.8; margin:32px 0;">
+  © 2025 <strong>Alper Sager</strong> · RWTH Aachen University<br>
+  <a href="mailto:alper.sager@rwth-aachen.de">alper.sager@rwth-aachen.de</a> ·
+  <a href="https://www.linkedin.com/in/alpersager">LinkedIn</a> ·
+  <a href="https://github.com/alpersager">GitHub</a>
+</footer>
 
----
+<style>
+  body { font-family:"Segoe UI","Helvetica Neue",sans-serif; }
+  h1, h2, h3 { letter-spacing:.2px; }
+  h1 { color:#003366; }
+  h2 { color:#004b8d; border-bottom:2px solid #e5e7eb; padding-bottom:4px; }
+  a { color:#0056b3; } a:hover { text-decoration:underline; opacity:.92; }
+  code { background:#f6f8fa; padding:2px 6px; border-radius:6px; }
+  hr { border:none; border-top:1px solid #e5e7eb; }
+</style>
 
-### 🌍 EESTEC Leadership Experience
-Vice-President and Contact Person of **EESTEC LC Aachen**, organizing European engineering events and international congresses.  
-**Impact:** Enhanced communication, cross-cultural teamwork, and strategic project management.
-
----
-
-### 🧩 Language and Intercultural Research
-Achieved **C2 level** proficiency in English and German; learning French and Russian.  
-**Impact:** Developed multicultural adaptability and linguistic analytical skills relevant to global innovation.
-
----
-
-You can find more technical details and upcoming projects on my [GitHub profile](https://github.com/alpersager).
