@@ -32,7 +32,12 @@
     h2{font-size:1.35rem;color:var(--rwth-2);margin:28px 0 10px;border-bottom:2px solid var(--line);padding-bottom:6px}
 
     /* HERO */
-    .hero{display:flex;flex-direction:column;align-items:center;text-align:center;margin:8px 0 20px}
+    .hero{
+      display:flex;flex-direction:column;align-items:center;text-align:center;
+      margin:8px 0 20px; padding:28px 0 24px;
+      background:linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+      border:1px solid var(--line); border-radius:16px;
+    }
     .tag{margin:0;color:var(--muted);font-weight:500}
     .sub{margin:8px 0 0;font-style:italic;opacity:.9}
     .btns{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
@@ -52,43 +57,37 @@
       background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;
       box-shadow:0 2px 0 rgba(0,0,0,.02);transition:transform .14s, box-shadow .14s,border-color .14s;
     }
-    .card:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.08);border-color:#d1d5db}
+    .card:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(0,0,0,.10);border-color:#cbd5e1}
     .title{font-weight:600;margin-bottom:6px}
     .desc{color:#334155;font-size:.98rem}
     .meta{margin-top:8px;font-size:.9rem;color:#334155;display:flex;align-items:center;gap:6px}
     .meta::before{
       content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ring);
-      box-shadow:0 0 0 3px #eef2ff; /* subtle ring */
+      box-shadow:0 0 0 3px #eef2ff;
     }
+
+    /* Chips, small buttons, footer */
     footer{text-align:center;font-size:.9rem;opacity:.85;margin:40px 0 24px}
     .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
     .chip{font-size:.82rem;padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:#fff}
     .actions{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
     .btn-sm{padding:8px 10px;border-radius:10px;border:1px solid var(--line);display:inline-block}
+
+    /* Visual boost */
     .title{display:flex;align-items:center;gap:10px}
-.title .ico{
-  width:34px;height:34px;border-radius:50%;
-  display:grid;place-items:center;
-  background:#eef2ff;
-  font-size:18px;line-height:1;
-}
-.btn-primary{
-  background:#0b63c8;color:#fff;border-color:#0b63c8;
-  transition:transform .12s, box-shadow .12s, background .12s, border-color .12s;
-}
-.btn-primary:hover{
-  background:#094e9f;border-color:#094e9f;color:#fff;
-  transform:translateY(-2px);
-  box-shadow:0 10px 28px rgba(11,99,200,.24);
-}
-.card.accent-1{border-color:#dbeafe}
-.card.accent-2{border-color:#e9d5ff}
-.card.accent-3{border-color:#fde68a}
-.card.accent-1:hover{box-shadow:0 14px 32px rgba(30,64,175,.18)}
-.card.accent-2:hover{box-shadow:0 14px 32px rgba(109,40,217,.16)}
-.card.accent-3:hover{box-shadow:0 14px 32px rgba(245,158,11,.16)}
-.chip{background:#f8fafc;border-color:#e5e7eb}
-</style>
+    .title .ico{
+      width:34px;height:34px;border-radius:50%;
+      display:grid;place-items:center;background:#eef2ff;font-size:18px;line-height:1;
+    }
+    .btn-primary{background:#0b63c8;color:#fff;border-color:#0b63c8;transition:transform .12s, box-shadow .12s, background .12s, border-color .12s}
+    .btn-primary:hover{background:#094e9f;border-color:#094e9f;color:#fff;transform:translateY(-2px);box-shadow:0 10px 28px rgba(11,99,200,.24)}
+    .card.accent-1{border-color:#dbeafe}
+    .card.accent-2{border-color:#e9d5ff}
+    .card.accent-3{border-color:#fde68a}
+    .card.accent-1:hover{box-shadow:0 14px 32px rgba(30,64,175,.18)}
+    .card.accent-2:hover{box-shadow:0 14px 32px rgba(109,40,217,.16)}
+    .card.accent-3:hover{box-shadow:0 14px 32px rgba(245,158,11,.16)}
+    .chip{background:#f8fafc;border-color:#e5e7eb}
   </style>
 </head>
 <body>
@@ -119,125 +118,64 @@
     </section>
 
     <!-- PROJECTS -->
-   <section>
-  <h2>Selected Projects</h2>
+    <section>
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <!-- OTHELLO -->
+        <div class="card accent-1">
+          <div class="title"><span class="ico">♟</span>Othello in C++ (TDD)</div>
+          <div class="desc">Complete game engine with legal-move generation, flips, score tracking and pass logic.</div>
+          <ul style="margin:10px 0 0 18px;line-height:1.45">
+            <li>Board as bitboard + fast neighbor scanning</li>
+            <li>Deterministic unit tests in <code>test.cpp</code> (TDD)</li>
+            <li>Clear API: <code>canPlay()</code>, <code>applyMove()</code>, <code>validMoves()</code></li>
+            <li>Focus on correctness & simplicity</li>
+          </ul>
+          <div class="chips">
+            <span class="chip">C++</span><span class="chip">STL</span><span class="chip">Unit Testing</span>
+          </div>
+          <div class="actions">
+            <a class="btn-sm btn-primary" href="https://github.com/alpersager/othello-cpp">View Repo ↗</a>
+          </div>
+        </div>
 
- <div class="grid">
-  <!-- OTHELLO -->
-  <div class="card accent-1">
-    <div class="title"><span class="ico">♟</span>Othello in C++ (TDD)</div>
-    <div class="desc">
-      Complete game engine with legal-move generation, flips, score tracking and pass logic.
-    </div>
-    <ul style="margin:10px 0 0 18px;line-height:1.45">
-      <li>Board as bitboard + fast neighbor scanning</li>
-      <li>Deterministic unit tests in <code>test.cpp</code> (TDD)</li>
-      <li>Clear API: <code>canPlay()</code>, <code>applyMove()</code>, <code>validMoves()</code></li>
-      <li>Focus on correctness & simplicity</li>
-    </ul>
-    <div class="chips">
-      <span class="chip">C++</span>
-      <span class="chip">STL</span>
-      <span class="chip">Unit Testing</span>
-    </div>
-    <div class="actions">
-      <a class="btn-sm btn-primary" href="https://github.com/alpersager/othello-cpp">View Repo ↗</a>
-    </div>
-  </div>
+        <!-- AVR ASSEMBLY -->
+        <div class="card accent-2">
+          <div class="title"><span class="ico">🔧</span>AVR8 Assembly Labs</div>
+          <div class="desc">Low-level programs showcasing GPIO, timers, interrupts and simple state machines on AVR.</div>
+          <ul style="margin:10px 0 0 18px;line-height:1.45">
+            <li>Blink & PWM via Timer/Counter configuration</li>
+            <li>Interrupt-driven button debouncing</li>
+            <li>Modular ISR & main loop separation</li>
+            <li>Register-level documentation in comments</li>
+          </ul>
+          <div class="chips">
+            <span class="chip">AVR</span><span class="chip">Assembly</span><span class="chip">Embedded</span><span class="chip">Timers/ISR</span>
+          </div>
+          <div class="actions">
+            <a class="btn-sm btn-primary" href="https://github.com/alpersager/avr-assembly-labs">View Repo ↗</a>
+          </div>
+        </div>
 
-  <!-- AVR ASSEMBLY -->
-  <div class="card accent-2">
-    <div class="title"><span class="ico">🔧</span>AVR8 Assembly Labs</div>
-    <div class="desc">
-      Low-level programs showcasing GPIO, timers, interrupts and simple state machines on AVR.
-    </div>
-    <ul style="margin:10px 0 0 18px;line-height:1.45">
-      <li>Blink & PWM via Timer/Counter configuration</li>
-      <li>Interrupt-driven button debouncing</li>
-      <li>Modular ISR & main loop separation</li>
-      <li>Register-level documentation in comments</li>
-    </ul>
-    <div class="chips">
-      <span class="chip">AVR</span>
-      <span class="chip">Assembly</span>
-      <span class="chip">Embedded</span>
-      <span class="chip">Timers/ISR</span>
-    </div>
-    <div class="actions">
-      <a class="btn-sm btn-primary" href="https://github.com/alpersager/avr-assembly-labs">View Repo ↗</a>
-    </div>
-  </div>
-
-  <!-- MINI DATABASE -->
-  <div class="card accent-3">
-    <div class="title"><span class="ico">💾</span>Mini Database (C++)</div>
-    <div class="desc">
-      In-memory records with simple indexing and a tiny query engine for select/filter/sort.
-    </div>
-    <ul style="margin:10px 0 0 18px;line-height:1.45">
-      <li>Record model + in-memory store</li>
-      <li>Index by key for O(1)/O(log n) lookups</li>
-      <li>Query pipeline: filter → map → sort</li>
-      <li>Clean separation: storage vs. query layer</li>
-    </ul>
-    <div class="chips">
-      <span class="chip">C++</span>
-      <span class="chip">Data Structures</span>
-      <span class="chip">Indexes</span>
-    </div>
-    <div class="actions">
-      <a class="btn-sm btn-primary" href="https://github.com/alpersager/mini-db-cpp">View Repo ↗</a>
-    </div>
-  </div>
-</div>
-
-
-    <!-- AVR ASSEMBLY -->
-    <div class="card">
-      <div class="title">AVR8 Assembly Labs</div>
-      <div class="desc">
-        Low-level programs showcasing GPIO, timers, interrupts and simple state machines on AVR.
+        <!-- MINI DATABASE -->
+        <div class="card accent-3">
+          <div class="title"><span class="ico">💾</span>Mini Database (C++)</div>
+          <div class="desc">In-memory records with simple indexing and a tiny query engine for select/filter/sort.</div>
+          <ul style="margin:10px 0 0 18px;line-height:1.45">
+            <li>Record model + in-memory store</li>
+            <li>Index by key for O(1)/O(log n) lookups</li>
+            <li>Query pipeline: filter → map → sort</li>
+            <li>Clean separation: storage vs. query layer</li>
+          </ul>
+          <div class="chips">
+            <span class="chip">C++</span><span class="chip">Data Structures</span><span class="chip">Indexes</span>
+          </div>
+          <div class="actions">
+            <a class="btn-sm btn-primary" href="https://github.com/alpersager/mini-db-cpp">View Repo ↗</a>
+          </div>
+        </div>
       </div>
-      <ul style="margin:10px 0 0 18px;line-height:1.45">
-        <li>Blink & PWM via Timer/Counter configuration</li>
-        <li>Interrupt-driven button debouncing</li>
-        <li>Modular ISR & main loop separation</li>
-        <li>Register-level documentation in comments</li>
-      </ul>
-      <div class="chips">
-        <span class="chip">AVR</span>
-        <span class="chip">Assembly</span>
-        <span class="chip">Embedded</span>
-        <span class="chip">Timers/ISR</span>
-      </div>
-      <div class="actions">
-        <a class="btn-sm" href="https://github.com/alpersager/avr-assembly-labs">View Repo ↗</a>
-      </div>
-    </div>
-
-    <!-- MINI DB -->
-    <div class="card">
-      <div class="title">Mini Database (C++)</div>
-      <div class="desc">
-        In-memory records with simple indexing and a tiny query engine for select/filter/sort.
-      </div>
-      <ul style="margin:10px 0 0 18px;line-height:1.45">
-        <li>Record model + in-memory store</li>
-        <li>Index by key for O(1)/O(log n) lookups</li>
-        <li>Query pipeline: filter → map → sort</li>
-        <li>Clean separation: storage vs. query layer</li>
-      </ul>
-      <div class="chips">
-        <span class="chip">C++</span>
-        <span class="chip">Data Structures</span>
-        <span class="chip">Indexes</span>
-      </div>
-      <div class="actions">
-        <a class="btn-sm" href="https://github.com/alpersager/mini-db-cpp">View Repo ↗</a>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <footer>
       <hr class="divider">
