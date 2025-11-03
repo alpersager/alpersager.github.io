@@ -1,13 +1,22 @@
-title: Alper Sager
-description: Computer Engineering @ RWTH Aachen · AI Systems · Embedded Computing · EESTEC Leadership
+title: "Alper Sager – RWTH Aachen Portfolio"
+description: "Portfolio of Alper Sager, Computer Engineering student at RWTH Aachen University. Focused on AI Systems, Embedded Computing, and EESTEC Leadership."
 theme: minima
 markdown: kramdown
 
+# Site URL (Google ve sitemap için önemli)
+url: "https://alpersager.github.io"
+
+# Üst menüde gözükecek sayfalar
 header_pages:
   - about.md
   - projects.md
   - contact.md
 
+# Yazar bilgileri
 author:
-  name: Alper Sager
-  email: alper.sager@rwth-aachen.de
+  name: "Alper Sager"
+  email: "alper.sager@rwth-aachen.de"
+
+# Google arama optimizasyonu için site haritası
+plugins:
+  - jekyll-sitemap
