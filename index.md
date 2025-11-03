@@ -24,6 +24,7 @@ Hi, I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 I’m passionate about **AI systems**, **embedded computing**, and international leadership through **EESTEC**.
 
 ---
+<img width="1410" height="476" alt="image" src="https://github.com/user-attachments/assets/88d2df8d-a663-4f0c-81dd-afc0b0ed581b" />
 
 <!-- START: PROJECT GRID -->
 <h2 id="projects" style="margin-top:32px;">Selected Projects</h2>
