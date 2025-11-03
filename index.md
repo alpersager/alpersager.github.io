@@ -1,7 +1,7 @@
 <!-- START: HERO -->
 <div style="text-align:center; margin: 32px 0;">
   <img src="/images/profile.jpg" alt="Alper Sager" style="width:140px; height:140px; border-radius:50%; object-fit:cover; box-shadow:0 4px 16px rgba(0,0,0,.15);" />
-  
+
   <h1 style="margin:16px 0 8px; font-size:2rem;">Alper Sager</h1>
   <p style="margin:0; font-size:1.05rem; opacity:.85;">
     Computer Engineering @ <strong>RWTH Aachen</strong><br>
@@ -55,7 +55,7 @@ I’m passionate about **AI systems**, **embedded computing**, and international
 </div>
 
 <script>
-  // Hover efektleri
+  // Hover effects for project cards
   document.querySelectorAll('div[style*="border-radius:14px"]').forEach(card=>{
     card.addEventListener('mouseenter', ()=>{ card.style.transform='translateY(-2px)'; card.style.boxShadow='0 8px 24px rgba(0,0,0,.08)'; });
     card.addEventListener('mouseleave', ()=>{ card.style.transform=''; card.style.boxShadow=''; });
@@ -65,34 +65,25 @@ I’m passionate about **AI systems**, **embedded computing**, and international
 
 ---
 
-<!-- START: TINY STYLES -->
+<!-- START: GLOBAL STYLES -->
 <style>
+  body { font-family: "Segoe UI","Helvetica Neue",sans-serif; }
   h1, h2, h3 { letter-spacing: .2px; }
+  h1 { color: #003366; }              /* RWTH blue */
+  h2 { color: #004b8d; border-bottom: 2px solid #e5e7eb; padding-bottom: 4px; }
+  a { color: #0056b3; }
+  a:hover { text-decoration: underline; opacity: .92; }
   code { background: #f6f8fa; padding: 2px 6px; border-radius: 6px; }
-  a:hover { opacity: .92; }
+  hr { border: none; border-top: 1px solid #e5e7eb; }
 </style>
-<!-- END: TINY STYLES -->
-<!-- VISUAL ENHANCEMENT -->
-<style>
-  body {
-    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
-  }
-  h1 {
-    color: #003366; /* RWTH mavisi */
-  }
-  h2 {
-    color: #004b8d;
-    border-bottom: 2px solid #e5e7eb;
-    padding-bottom: 4px;
-  }
-  a {
-    color: #0056b3;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  hr {
-    border: none;
-    border-top: 1px solid #e5e7eb;
-  }
-</style>
+<!-- END: GLOBAL STYLES -->
+
+<!-- START: FOOTER -->
+<hr style="margin-top:48px;">
+<footer style="text-align:center; font-size:0.9rem; opacity:.8; margin:32px 0;">
+  © 2025 <strong>Alper Sager</strong> · RWTH Aachen University<br>
+  <a href="mailto:alper.sager@rwth-aachen.de">alper.sager@rwth-aachen.de</a> ·
+  <a href="https://www.linkedin.com/in/alpersager">LinkedIn</a> ·
+  <a href="https://github.com/alpersager">GitHub</a>
+</footer>
+<!-- END: FOOTER -->
