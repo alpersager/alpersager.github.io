@@ -72,3 +72,27 @@ I’m passionate about **AI systems**, **embedded computing**, and international
   a:hover { opacity: .92; }
 </style>
 <!-- END: TINY STYLES -->
+<!-- VISUAL ENHANCEMENT -->
+<style>
+  body {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  }
+  h1 {
+    color: #003366; /* RWTH mavisi */
+  }
+  h2 {
+    color: #004b8d;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 4px;
+  }
+  a {
+    color: #0056b3;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+  }
+</style>
