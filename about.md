@@ -1,14 +1,11 @@
-
-
-
-
 ---
 title: "About — Alper Sager"
+layout: page
 ---
 
 # About
 
-Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen University**, passionate about ** Digital and Analog Signal Processing **, **Theory of Computation**, and **Volunteer Leadership** through **EESTEC**.
+Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen University**, passionate about **Digital and Analog Signal Processing**, **Theory of Computation**, and **Volunteer Leadership** through **EESTEC**.
 
 ---
 
@@ -28,34 +25,37 @@ Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 ---
 
 ### 🗣️ Languages
-| Language | Level |
-|-----------|--------|
-| 🇩🇪 German |  bilingual |
-| 🇬🇧 English | bilingual |
-| 🇫🇷 French | A2 (RWTH Aachen) |
-| 🇹🇷 Turkish | Native |
-
-
----
-
-### 🎯 Vision
-My goal is to bridge **AI-driven computing** and **international leadership**, combining technical excellence with cultural understanding.  
-In the future, I aim to pursue **Fulbright** or **Ivy League research programs**, focusing on **AI Systems and Human-Technology Interaction**.
-
----
-
-<footer style="text-align:center; font-size:0.9rem; opacity:.8; margin-top:48px;">
-  © 2025 <strong>Alper Sager</strong> · RWTH Aachen University · 
-  <a href="mailto:alper.sager@rwth-aachen.de">alper.sager@rwth-aachen.de</a>
-</footer>
 
 <style>
-  body { font-family:"Segoe UI","Helvetica Neue",sans-serif; }
-  h1, h2, h3 { color:#003366; }
-  a { color:#0056b3; text-decoration:none; }
-  a:hover { text-decoration:underline; opacity:.92; }
-  hr { border:none; border-top:1px solid #e5e7eb; margin-top:32px; }
-  table { border-collapse:collapse; margin-top:12px; }
-  th, td { padding:6px 12px; border-bottom:1px solid #e5e7eb; text-align:left; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 0.96rem;
+}
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+thead th {
+  background: #f8fafc;
+  font-weight: 600;
+}
+tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
 </style>
 
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Level</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>🇩🇪 German</td><td>Bilingual</td></tr>
+    <tr><td>🇬🇧 English</td><td>Bilingual</td></tr>
+    <tr><td>🇫🇷 French</td><td
