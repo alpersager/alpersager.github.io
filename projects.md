@@ -8,7 +8,7 @@ Below are selected projects with short descriptions and tech stack.
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; margin-top:12px;">
 
-  <a href="https://github.com/alpersager/othello-cpp" style="text-decoration:none; color:inherit;">
+<a href="https://github.com/alpersager/othello-cpp" style="text-decoration:none; color:inherit;">
   <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
     <div style="font-weight:600; margin-bottom:6px;">Othello in C++ (TDD)</div>
     <div style="opacity:.8; font-size:.95rem;">
@@ -23,6 +23,8 @@ Below are selected projects with short descriptions and tech stack.
     </div>
   </div>
 </a>
+
+
 
   <a href="https://github.com/alpersager/avr-assembly-labs" style="text-decoration:none; color:inherit;">
     <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
