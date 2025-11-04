@@ -13,6 +13,9 @@ Below are selected projects with short descriptions and tech stack.
       <div style="font-weight:600; margin-bottom:6px;">Othello in C++ (TDD)</div>
       <div style="opacity:.8; font-size:.95rem;">Game logic, move validation, and unit tests (<code>test.cpp</code>).</div>
       <div style="margin-top:8px; font-size:.9rem;">⚙️ C++ • STL • Unit Testing</div>
+      <img src="https://github.com/alpersager/othello-cpp/actions/workflows/cpp.yml/badge.svg"
+         alt="Build Status"
+         style="height:18px; margin-top:8px;" />
     </div>
   </a>
 
