@@ -1,0 +1,25 @@
+---
+---
+
+@import "minima";
+
+/* GitHub benzeri tablo stili */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 8px 12px;
+  vertical-align: top;
+}
+
+thead th {
+  text-align: left;
+  background: #f8fafc;
+}
+
+tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
