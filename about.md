@@ -19,8 +19,7 @@ Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 ### 🌍 Leadership & Community
 - **Vice President – EESTEC LC Aachen**  
   Responsible for *international relations, event coordination, and member development*  
-- Organized collaborations with branches such as *Krakow, Ljubljana, and Zurich*  
-- Ambition: to become **Chairperson of LC Aachen** and later join **EESTEC International Board**
+- Organized collaborations with branches such as  
 
 ---
 
