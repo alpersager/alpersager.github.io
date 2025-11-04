@@ -1,3 +1,35 @@
+
+---
+title: About
+layout: page
+---
+
+<!-- HTML modunda stiller -->
+<div markdown="0">
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 8px 12px;
+  text-align: left;
+}
+thead th {
+  background: #f8fafc;
+  font-weight: 600;
+}
+tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+</style>
+</div>
+
+
+
+
 ---
 title: "About — Alper Sager"
 ---
