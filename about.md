@@ -26,8 +26,8 @@ Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 ### 🗣️ Languages
 | Language | Level |
 |-----------|--------|
-| 🇩🇪 German | C2 (near-native) |
-| 🇬🇧 English | C2 (near-native) |
+| 🇩🇪 German |  bilingual |
+| 🇬🇧 English | bilingual |
 | 🇫🇷 French | A2 (RWTH Aachen) |
 | 🇹🇷 Turkish | Native |
 
