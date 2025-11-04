@@ -1,36 +1,5 @@
 
 ---
-title: About
-layout: page
----
-
-<!-- HTML modunda stiller -->
-
-<style>
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 12px;
-}
-th, td {
-  border: 1px solid #e5e7eb;
-  padding: 8px 12px;
-  text-align: left;
-}
-thead th {
-  background: #f8fafc;
-  font-weight: 600;
-}
-tbody tr:nth-child(even) {
-  background: #f9fafb;
-}
-</style>
-</div>
-
-
-
-
----
 title: "About — Alper Sager"
 ---
 
@@ -54,7 +23,7 @@ Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 - Organized collaborations with branches  
 
 ---
-<div markdown='1'>
+
 ### 🗣️ Languages
 | Language | Level |
 |-----------|--------|
@@ -62,7 +31,7 @@ Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 | 🇬🇧 English | bilingual |
 | 🇫🇷 French | A2 (RWTH Aachen) |
 | 🇹🇷 Turkish | Native |
-</div>
+
 
 ---
 
