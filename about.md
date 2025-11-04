@@ -4,7 +4,7 @@ title: "About — Alper Sager"
 
 # About
 
-Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen University**, passionate about **AI systems**, **embedded computing**, and **international leadership** through **EESTEC**.
+Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen University**, passionate about ** Digital and Analog Signal Processing **, **Theory of Computation**, and **Volunteer Leadership** through **EESTEC**.
 
 ---
 
