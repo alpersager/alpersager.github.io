@@ -13,7 +13,7 @@ kramdown:
 # Site URL (Google ve sitemap için önemli)
 url: "https://alpersager.github.io"
 
-# Üst menü
+# Üst menüde gözükecek sayfalar
 header_pages:
   - about.md
   - projects.md
@@ -24,7 +24,11 @@ author:
   name: "Alper Sager"
   email: "alper.sager@rwth-aachen.de"
 
-# Eklentiler
+# Google arama optimizasyonu için site haritası
 plugins:
   - jekyll-sitemap
-  
+
+# SCSS derleme (tablolar ve özel CSS için)
+sass:
+  style: compressed
+
