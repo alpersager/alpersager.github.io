@@ -30,7 +30,7 @@ Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 | 🇬🇧 English | C2 (near-native) |
 | 🇫🇷 French | A2 (RWTH Aachen) |
 | 🇹🇷 Turkish | Native |
-| 🇷🇺 Russian | Beginner |
+
 
 ---
 
