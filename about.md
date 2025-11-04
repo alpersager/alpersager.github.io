@@ -5,7 +5,7 @@ layout: page
 ---
 
 <!-- HTML modunda stiller -->
-<div markdown="0">
+
 <style>
 table {
   width: 100%;
@@ -54,7 +54,7 @@ Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 - Organized collaborations with branches  
 
 ---
-
+<div markdown='1'>
 ### 🗣️ Languages
 | Language | Level |
 |-----------|--------|
@@ -62,7 +62,7 @@ Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 | 🇬🇧 English | bilingual |
 | 🇫🇷 French | A2 (RWTH Aachen) |
 | 🇹🇷 Turkish | Native |
-
+</div>
 
 ---
 
