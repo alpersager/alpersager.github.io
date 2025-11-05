@@ -13,19 +13,29 @@ Below are selected projects with short descriptions and tech stack.
 
   <!-- OTHELLO -->
   <div>
-    <a href="https://github.com/alpersager/othello-cpp" style="text-decoration:none; color:inherit; display:block;">
-      <div class="project-card" style="border:1px solid #e5e7eb; border-radius:14px; padding:16px;">
-        <div style="font-weight:600; margin-bottom:6px;">Othello in C++ (TDD)</div>
-        <div style="opacity:.8; font-size:.95rem;">
-          Game logic, move validation, and unit tests (<code>test.cpp</code>).
-        </div>
-        <div style="margin-top:8px; font-size:.9rem; display:flex; align-items:center; gap:8px;">
-          <span>⚙️ C++ • STL • Unit Testing</span>
-          <img src="https://github.com/alpersager/othello-cpp/actions/workflows/cpp.yml/badge.svg" alt="Build Status" style="height:18px;">
-        </div>
+  <a href="https://github.com/alpersager/othello-cpp" style="text-decoration:none; color:inherit; display:block;">
+    <div class="project-card" style="border:1px solid #e5e7eb; border-radius:14px; padding:16px;">
+      
+      <div style="font-weight:600; margin-bottom:6px;">Othello in C++ (TDD)</div>
+      <div style="opacity:.8; font-size:.95rem;">
+        Game logic, move validation, and unit tests (<code>test.cpp</code>).
       </div>
-    </a>
-  </div>
+
+      <div style="margin-top:8px; font-size:.9rem; display:flex; align-items:center; gap:8px;">
+        <span>⚙️ C++ • STL • Unit Testing</span>
+
+        <!-- Build Status Badge -->
+        <img src="https://github.com/alpersager/othello-cpp/actions/workflows/cpp.yml/badge.svg" 
+             alt="Build Status" style="height:18px;">
+
+        <!-- License Badge -->
+        <img src="https://img.shields.io/github/license/alpersager/othello-cpp.svg" 
+             alt="License: MIT" style="height:18px;">
+
+      </div>
+    </div>
+  </a>
+</div>
 
   <!-- AVR8 ASSEMBLY LABS -->
   <div>
