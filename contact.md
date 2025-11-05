@@ -1,6 +1,9 @@
 ---
 title: "Contact — Alper Sager"
+layout: page
+permalink: /contact/
 ---
+
 
 # Contact
 
