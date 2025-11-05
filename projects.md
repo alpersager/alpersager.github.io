@@ -6,41 +6,45 @@ title: "Projects — Alper Sager"
 
 Below are selected projects with short descriptions and tech stack.
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; margin-top:12px;">
+<div markdown="0" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; margin-top:12px;">
 
-<a href="https://github.com/alpersager/othello-cpp" style="text-decoration:none; color:inherit;">
-  <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
-    <div style="font-weight:600; margin-bottom:6px;">Othello in C++ (TDD)</div>
-    <div style="opacity:.8; font-size:.95rem;">
-      Game logic, move validation, and unit tests (<code>test.cpp</code>).
-    </div>
-
-    <!-- tech stack + badge aynı satırda -->
-    <div style="margin-top:8px; font-size:.9rem; display:flex; align-items:center; gap:8px;">
-      <span>⚙️ C++ • STL • Unit Testing</span>
-      <img src="https://github.com/alpersager/othello-cpp/actions/workflows/cpp.yml/badge.svg"
-           alt="Build Status" style="height:18px;">
-    </div>
+  <!-- OTHELLO -->
+  <div>
+    <a href="https://github.com/alpersager/othello-cpp" style="text-decoration:none; color:inherit; display:block;">
+      <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
+        <div style="font-weight:600; margin-bottom:6px;">Othello in C++ (TDD)</div>
+        <div style="opacity:.8; font-size:.95rem;">
+          Game logic, move validation, and unit tests (<code>test.cpp</code>).
+        </div>
+        <div style="margin-top:8px; font-size:.9rem; display:flex; align-items:center; gap:8px;">
+          <span>⚙️ C++ • STL • Unit Testing</span>
+          <img src="https://github.com/alpersager/othello-cpp/actions/workflows/cpp.yml/badge.svg" alt="Build Status" style="height:18px;">
+        </div>
+      </div>
+    </a>
   </div>
-</a>
 
+  <!-- AVR8 ASSEMBLY LABS -->
+  <div>
+    <a href="https://github.com/alpersager/avr-assembly-labs" style="text-decoration:none; color:inherit; display:block;">
+      <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
+        <div style="font-weight:600; margin-bottom:6px;">AVR8 Assembly Labs</div>
+        <div style="opacity:.8; font-size:.95rem;">Interrupts, timers, low-level I/O — clean commented ASM.</div>
+        <div style="margin-top:8px; font-size:.9rem;">🧠 AVR • Assembly • Embedded</div>
+      </div>
+    </a>
+  </div>
 
-
-  <a href="https://github.com/alpersager/avr-assembly-labs" style="text-decoration:none; color:inherit;">
-    <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
-      <div style="font-weight:600; margin-bottom:6px;">AVR8 Assembly Labs</div>
-      <div style="opacity:.8; font-size:.95rem;">Interrupts, timers, low-level I/O — clean commented ASM.</div>
-      <div style="margin-top:8px; font-size:.9rem;">🧠 AVR • Assembly • Embedded</div>
-    </div>
-  </a>
-
-  <a href="https://github.com/alpersager/mini-db-cpp" style="text-decoration:none; color:inherit;">
-    <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
-      <div style="font-weight:600; margin-bottom:6px;">Mini Database (C++)</div>
-      <div style="opacity:.8; font-size:.95rem;">In-memory store, simple indexing & query engine.</div>
-      <div style="margin-top:8px; font-size:.9rem;">🗃️ C++ • Data Structures</div>
-    </div>
-  </a>
+  <!-- MINI DATABASE -->
+  <div>
+    <a href="https://github.com/alpersager/mini-db-cpp" style="text-decoration:none; color:inherit; display:block;">
+      <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
+        <div style="font-weight:600; margin-bottom:6px;">Mini Database (C++)</div>
+        <div style="opacity:.8; font-size:.95rem;">In-memory store, simple indexing & query engine.</div>
+        <div style="margin-top:8px; font-size:.9rem;">🗃️ C++ • Data Structures</div>
+      </div>
+    </a>
+  </div>
 
 </div>
 
