@@ -6,12 +6,12 @@ title: "Projects — Alper Sager"
 
 Below are selected projects with short descriptions and tech stack.
 
-<div markdown="0" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; margin-top:12px;">
+<div markdown="0" class="projects-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; margin-top:12px;">
 
   <!-- OTHELLO -->
   <div>
     <a href="https://github.com/alpersager/othello-cpp" style="text-decoration:none; color:inherit; display:block;">
-      <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
+      <div class="project-card" style="border:1px solid #e5e7eb; border-radius:14px; padding:16px;">
         <div style="font-weight:600; margin-bottom:6px;">Othello in C++ (TDD)</div>
         <div style="opacity:.8; font-size:.95rem;">
           Game logic, move validation, and unit tests (<code>test.cpp</code>).
@@ -27,7 +27,7 @@ Below are selected projects with short descriptions and tech stack.
   <!-- AVR8 ASSEMBLY LABS -->
   <div>
     <a href="https://github.com/alpersager/avr-assembly-labs" style="text-decoration:none; color:inherit; display:block;">
-      <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
+      <div class="project-card" style="border:1px solid #e5e7eb; border-radius:14px; padding:16px;">
         <div style="font-weight:600; margin-bottom:6px;">AVR8 Assembly Labs</div>
         <div style="opacity:.8; font-size:.95rem;">Interrupts, timers, low-level I/O — clean commented ASM.</div>
         <div style="margin-top:8px; font-size:.9rem;">🧠 AVR • Assembly • Embedded</div>
@@ -38,7 +38,7 @@ Below are selected projects with short descriptions and tech stack.
   <!-- MINI DATABASE -->
   <div>
     <a href="https://github.com/alpersager/mini-db-cpp" style="text-decoration:none; color:inherit; display:block;">
-      <div style="border:1px solid #e5e7eb; border-radius:14px; padding:16px; transition:transform .12s, box-shadow .12s;">
+      <div class="project-card" style="border:1px solid #e5e7eb; border-radius:14px; padding:16px;">
         <div style="font-weight:600; margin-bottom:6px;">Mini Database (C++)</div>
         <div style="opacity:.8; font-size:.95rem;">In-memory store, simple indexing & query engine.</div>
         <div style="margin-top:8px; font-size:.9rem;">🗃️ C++ • Data Structures</div>
@@ -47,13 +47,6 @@ Below are selected projects with short descriptions and tech stack.
   </div>
 
 </div>
-
-<script>
-  document.querySelectorAll('div[style*="border-radius:14px"]').forEach(card=>{
-    card.addEventListener('mouseenter', ()=>{ card.style.transform='translateY(-2px)'; card.style.boxShadow='0 8px 24px rgba(0,0,0,.08)'; });
-    card.addEventListener('mouseleave', ()=>{ card.style.transform=''; card.style.boxShadow=''; });
-  });
-</script>
 
 ---
 
@@ -74,6 +67,7 @@ Below are selected projects with short descriptions and tech stack.
 </footer>
 
 <style>
+  /* tipografi ufak rötuş */
   body { font-family:"Segoe UI","Helvetica Neue",sans-serif; }
   h1, h2, h3 { letter-spacing:.2px; }
   h1 { color:#003366; }
@@ -81,5 +75,26 @@ Below are selected projects with short descriptions and tech stack.
   a { color:#0056b3; } a:hover { text-decoration:underline; opacity:.92; }
   code { background:#f6f8fa; padding:2px 6px; border-radius:6px; }
   hr { border:none; border-top:1px solid #e5e7eb; }
-</style>
 
+  /* kart animasyonu + erişilebilir focus */
+  .project-card {
+    transition: transform .14s ease, box-shadow .14s ease, border-color .14s ease;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  a:focus .project-card,
+  a:focus-visible .project-card,
+  .project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(0,0,0,.08);
+    border-color: #d1d5db;
+  }
+  /* hareket hassasiyeti olan kullanıcılar */
+  @media (prefers-reduced-motion: reduce) {
+    .project-card { transition: none; }
+  }
+
+  /* mobil: tek sütun */
+  @media (max-width: 640px) {
+    .projects-grid { grid-template-columns: 1fr !important; }
+  }
+</style>
