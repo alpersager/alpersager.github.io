@@ -6,22 +6,22 @@ permalink: /about/
 
 # About
 
-Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen University**, passionate about **Digital & Analog Signal Processing**, **Theory of Computation**, and **volunteer leadership** through **EESTEC**.
+Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen University**, passionate about **Digital & Analog Signal Processing**, **Theory of Computation**, **Digital Locig Design** , **volunteer leadership** through **EESTEC** and **Learning French**.
 
 ---
 
 ### 🎓 Academic Focus
 - **Computer Engineering @ RWTH Aachen**  
   Core interests: *AI Systems, Embedded Computing, Operating Systems, Signal Processing*
-- Building strong skills in **C++**, **ARM/AVR Assembly**, and **system-level design**
-- Exploring intersections of **AI** and **embedded intelligence**
+- Building strong skills in **C++**, **ARM/AVR Assembly**, and **Operating Systems**
+- Exploring intersections of **AI** and **embedded intelligence and robotics**
 
 ---
 
 ### 🌍 Leadership & Community
-- **Vice President — EESTEC LC Aachen**  
+- **Vice President — EESTEC LC Aachen / Contact Person**  
   Responsible for international relations, event coordination, and member development  
-- Organized collaborations with branches
+- Organized collaborations with branches like Autumm Congress 2025 EESTEC and contemporary communicating with othe OCs.
 
 ---
 
@@ -29,16 +29,16 @@ Hi! I’m **Alper Sager**, a Computer Engineering student at **RWTH Aachen Unive
 
 | Language | Level |
 |---|---|
-| 🇩🇪 German | Bilingual |
-| 🇬🇧 English | Bilingual |
+| 🇩🇪 German | Advanced |
+| 🇬🇧 English | Advanced |
 | 🇫🇷 French | A2 |
 | 🇹🇷 Turkish | Native |
 
 ---
 
 ### 🎯 Vision
-My goal is to bridge **AI-driven computing** and **international leadership**, combining technical excellence with cultural understanding.  
-In the future, I aim to pursue **Fulbright** or **Ivy League** research programs focusing on **AI Systems** and **Human-Technology Interaction**.
+My goal is to bridge **AI Implementions** and **Robotic Systems**, combining technical AI excellence with mechanical robotics systems.  
+In the future, I aim to pursue research programs focusing on **AI Systems** and **Robotics**.
 
 ---
 
