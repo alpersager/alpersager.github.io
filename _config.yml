@@ -20,9 +20,9 @@ header_pages:
   - contact.md
 
 # Yazar bilgileri
-author:
-  name: "Alper Sager"
-  email: "alper.sager@rwth-aachen.de"
+author: Alper Sager
+email: alper.sager@rwth-aachen.de
+
 
 # Google arama optimizasyonu için site haritası
 plugins:
