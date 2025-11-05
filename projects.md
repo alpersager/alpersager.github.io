@@ -1,6 +1,9 @@
 ---
 title: "Projects — Alper Sager"
+layout: page
+permalink: /projects/
 ---
+
 
 # Projects
 
